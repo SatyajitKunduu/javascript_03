@@ -45,3 +45,24 @@ switch (theme2) {
 }
 console.log(themecolor2);
 
+//5. ternary operator
+let theme3 = "dark";
+let themecolor3 = theme3 === "dark" ? "black" : "white";
+console.log(themecolor3);
+
+
+//6. nested if statement
+let theme4 = "dark";
+let mode4 = "light";
+let themecolor4;
+if (theme4 === "dark") {
+    if (mode4 === "light") {
+        themecolor4 = "gray";
+    } else {
+        themecolor4 = "black";
+    }
+} else {
+    themecolor4 = "white";
+}
+console.log(themecolor4);
+
