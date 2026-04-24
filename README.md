@@ -1,6 +1,8 @@
-java script part 01
-contents:
-conditional statement-->
+java script part 03
+<BR>contents:
+
+<BR>conditional statement-->
+
 1. if statement
 2. if-else statement
 3. else-if statement
